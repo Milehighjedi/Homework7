@@ -8,16 +8,26 @@ body {
 }
 
 .jumbotron {
-	opacity: 0.8;
+	-moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    position: relative;
 }
 
 .panel {
-	opacity: 0.8;
+	-moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    position: relative;
 }
 
 .panel > .panel-heading {
     background-color: black;
     color: white;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    position: relative;
 }
 
 #addTrainBtn {
